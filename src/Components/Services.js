@@ -19,7 +19,11 @@ export default function Services() {
           </p>
         </div>
         <div className="box box-2">
-          <i className="fab fa-css3-alt" />
+          <div className="languages">
+            <i className="fab fa-css3-alt" />
+            <h5>+</h5>
+            <i className="fab fa-sass" />
+          </div>
           <h5>CSS</h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -27,7 +31,11 @@ export default function Services() {
           </p>
         </div>
         <div className="box box-3">
-          <i className="fab fa-js-square" />
+          <div className="languages">
+            <i className="fab fa-js-square" />
+            <h5>+</h5>
+            <i className="fab fa-react" />
+          </div>
           <h5>JavaScript</h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer

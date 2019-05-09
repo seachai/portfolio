@@ -58,6 +58,17 @@
         margin-bottom: 2rem;
       }
 
+      .languages {
+        display: flex;
+
+        h5 {
+          padding: 0 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
       h5 {
         font-size: 1rem;
         font-weight: 700;

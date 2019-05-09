@@ -10,15 +10,35 @@ export default function Portfolio() {
       </div>
       <div className="portfolio-container">
         <a href="#home" className="box image-1">
-          <div className="image" />
-          <div className="title">Web Development</div>
+          <div className="image">
+            <span className="image-btn">Web Development</span>
+          </div>
         </a>
-        <a href="#home" className="box image-2" />
-        <a href="#home" className="box image-3" />
-        <a href="#home" className="box image-4" />
-        <a href="#home" className="box image-5" />
-        <a href="#home" className="box image-6" />
-        <a href="#home" className="box image-7" />
+        <a href="#home" className="box image-2">
+          <div className="image">
+            <span className="image-btn">Web Development</span>
+          </div>
+        </a>
+        <a href="#home" className="box image-3">
+          <div className="image">
+            <span className="image-btn">Web Development</span>
+          </div>
+        </a>
+        <a href="#home" className="box image-4">
+          <div className="image">
+            <span className="image-btn">Web Development</span>
+          </div>
+        </a>
+        <a href="#home" className="box image-5">
+          <div className="image">
+            <span className="image-btn">Web Development</span>
+          </div>
+        </a>
+        <a href="#home" className="box image-6">
+          <div className="image">
+            <span className="image-btn">Web Development</span>
+          </div>
+        </a>
       </div>
     </section>
   );
