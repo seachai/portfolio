@@ -9,7 +9,10 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="portfolio-container">
-        <a href="#home" className="box image-1" />
+        <a href="#home" className="box image-1">
+          <div className="image" />
+          <div className="title">Web Development</div>
+        </a>
         <a href="#home" className="box image-2" />
         <a href="#home" className="box image-3" />
         <a href="#home" className="box image-4" />

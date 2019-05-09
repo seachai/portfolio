@@ -36,13 +36,13 @@
   .portfolio-container {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px 200px 200px;
     grid-gap: 10px;
 
     .box {
       background: black;
       display: block;
       width: 100%;
-      height: 200px;
       transition: all 0.4s ease-in-out;
       cursor: pointer;
 
@@ -53,5 +53,26 @@
         box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
       }
     }
+
+    .image-1 {
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+
+      .image {
+        background: url('https://cdn.dribbble.com/users/788099/screenshots/6452424/technology_in_the_car_3_kit8-net.png');
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+      .title {
+        background: black;
+        border-radius: 20%;
+        padding: 10px 20px;
+      }
+    }
+
+
   }
 }
