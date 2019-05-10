@@ -12,7 +12,7 @@ function App() {
       <TopSection />
       <Services />
       <Portfolio />
-      <Experience />
+      {/* <Experience /> */}
       <Blog />
     </div>
   );

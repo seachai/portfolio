@@ -7,7 +7,7 @@ export default function TopSection() {
         <div className="square" />
         <h1>Chai Lee</h1>
         <p>Front End Developer</p>
-        <a href="#projects">Latest Projects</a>
+        <a href="#portfolio">Latest Projects</a>
       </div>
       <div className="img">
         <div className="background-img" />

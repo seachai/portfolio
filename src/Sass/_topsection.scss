@@ -17,7 +17,7 @@
 
     .square {
       // border: 20px solid $blue;
-      border: 20px solid #f0f0f2;
+      border: 20px solid $white;
       border-radius: 3px;
       width: 500px;
       height: 500px;
@@ -31,7 +31,7 @@
     }
 
     h1 {
-      text-transform: uppercase;
+      text-transform: capitalize;
       font-size: 2rem;
       letter-spacing: 0.4rem;
       font-weight: 600;
@@ -47,9 +47,9 @@
     a {
       text-decoration: none;
       color: $black;
-      text-transform: uppercase;
+      text-transform: capitalize;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 1rem;
       padding-bottom: 5px;
       border-bottom: 2px solid #333;
       transition: all 0.2s ease-in-out;

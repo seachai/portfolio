@@ -5,8 +5,8 @@ export default function Portfolio() {
     <section id="portfolio">
       <div className="title">
         <div className="square">
-          <h1>Portfolio</h1>
         </div>
+        <h1>Portfolio</h1>
       </div>
       <div className="portfolio-container">
         <a href="#home" className="box image-1">

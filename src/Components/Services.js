@@ -5,8 +5,8 @@ export default function Services() {
     <section id="services">
       <div className="title">
         <div className="circle">
-          <h1>Services</h1>
         </div>
+        <h1>Capabilities</h1>
       </div>
 
       <div className="services-container">

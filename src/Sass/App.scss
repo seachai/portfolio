@@ -14,11 +14,13 @@
   font-family: "Lato", sans-serif;
   margin: 0;
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background: #656D78;
+  line-height: 1;
   background: #f0f0f2;
   // background: rgba(252,188,110,1);
   // background: -moz-linear-gradient(top, rgba(252,188,110,1) 0%, rgba(216,116,127,1) 25%, rgba(171,109,131,1) 50%, rgba(104,93,121,1) 75%, rgba(72,93,122,1) 100%);
