@@ -1,0 +1,71 @@
+#blog {
+    padding: 100px 15px;
+
+    .title {
+        h1 {
+            font-size: 4rem;
+            text-align: center;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 80px;
+        }
+    }
+
+    .blog-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 588px;
+        grid-gap: 15px;
+
+        .post {
+            .post-img {
+                height: 100%;
+                width: 100%;
+                background: url('https://i1.wp.com/linxsupply.com/wp-content/uploads/2015/11/want-something-mock.jpg?resize=680%2C850&ssl=1');
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-color: rgba(255,53,53,.8);
+            }
+
+            .details {
+                background: $white;
+                padding: 35px;
+
+                h4 {
+                    font-size: 1.1rem;
+                    color: #13171a;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    margin-bottom: 1.8rem;
+                }
+                p {
+                    font-size: 1rem;
+                    color: #919191;
+                    font-weight: 400;
+                    margin-bottom: 1.8rem;
+                    line-height: 1.5;
+                }
+                .read-more {
+                    a {
+                        text-decoration: none;
+                        font-size: 1.2rem;
+                        color: #13171a;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        border-bottom: 2px solid #13171a;
+                        padding-bottom: 5px;
+                        transition: all 0.2s ease-in-out;
+                        display: inline-block;
+                        font-weight: 700;
+
+                        &:hover {
+                            border-bottom: 2px solid $yellow;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
