@@ -98,3 +98,36 @@
     }
   }
 }
+
+@media only screen and (max-width: 960px) {
+  .container {
+    #services {
+      .services-container {
+        grid-template-columns: 100%;
+
+        .box {
+          -webkit-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+
+    #services {
+      .services-container {
+
+        .box {
+          -webkit-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+}

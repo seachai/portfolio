@@ -72,3 +72,33 @@
     }
   }
 }
+
+@media only screen and (max-width: 960px) {
+  #top {
+    padding: 0 0 80px;
+
+    .img {
+      .background-img {
+        height: 100vh;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #top {
+    padding: 0 0 80px;
+
+    .info {
+      .square {
+        display: none;
+      }
+    }
+
+    .img {
+      .background-img {
+        height: 100vh;
+      }
+    }
+  }
+}

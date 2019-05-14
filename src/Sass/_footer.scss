@@ -1,57 +1,70 @@
 #footer {
-    padding: 100px 15px;
-    background-color:#1A1D20;
-    color: $grey;
-    width: 500%;
-    margin-left: -10%;
-    margin-top: 100px;
+  padding: 100px 15px;
+  background-color: #1a1d20;
+  color: $grey;
+  width: 500%;
+  margin-left: -10%;
+  margin-top: 100px;
 
-    .bg {
-        margin-left: 2%;
+  .bg {
+    margin-left: 2%;
 
     .info {
-        max-width: 480px;
-        line-height: 1.2;
-        position: relative;
-        h4 {
-            font-size: 1rem;
-            margin-bottom: 1rem;
+      max-width: 480px;
+      line-height: 1.2;
+      position: relative;
+      h4 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        font-weight: 300;
+        a {
+          text-decoration: none;
+          color: $white;
+          transition: 0.2s;
+
+          &:hover {
+            color: $yellow;
+          }
         }
+      }
 
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
-            font-weight: 300;
-            a { 
-                text-decoration: none;
-                color: $white;
-                transition: .2s;
+      .social-icons {
+        .far,
+        .fab {
+          padding: 1rem 1.5rem 1rem 0;
+          transition: 0.2s;
+          margin-bottom: 2rem;
+          font-size: 2rem;
+          color: $grey;
 
-                &:hover {
-                    color: $yellow;
-                }
-            }
+          &:hover {
+            color: $white;
+          }
         }
+      }
 
-        .social-icons {
-            .far, .fab {
-                padding: 1rem 1.5rem 1rem 0;
-                transition: .2s;
-                margin-bottom: 2rem;
-                font-size: 2rem;
-                color: $grey;
-
-                &:hover {
-                    color: $white;
-                }
-            }
-        }
-
-        .copyright {
-            position: absolute;
-            font-weight: 300;
-            bottom: 0;
-        }
+      .copyright {
+        position: absolute;
+        font-weight: 300;
+        bottom: 0;
+      }
     }
+  }
+
+  @media only screen and (max-width: 960px) {
+    .container {
+      width: 100%;
     }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .container {
+      width: 100%;
+    }
+  }
 }

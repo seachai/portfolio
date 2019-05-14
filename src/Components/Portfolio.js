@@ -6,7 +6,7 @@ export default function Portfolio() {
       <div className="title">
         <div className="square">
         </div>
-        <h1>Portfolio</h1>
+        <h1>Projects</h1>
       </div>
       <div className="portfolio-container">
         <a href="#home" className="box image-1">

@@ -27,12 +27,12 @@ export default class Blog extends Component {
       },
       {
         title: "Sailing",
-        body: `Twenty years from now you you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails.`,
+        body: `“Twenty years from now you you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails.”`,
         author: "Mark Twain"
       },
       {
         title: "Explanation",
-        body: `If you can't explain it to a six year old, you don't understand it yourself.`,
+        body: `“If you can't explain it to a six year old, you don't understand it yourself.”`,
         author: "Albert Einstein"
       }
     ];
