@@ -6,7 +6,7 @@ export default function Services() {
       <div className="title">
         <div className="circle">
         </div>
-        <h1>Capabilities</h1>
+        <h1>Technical Skills</h1>
       </div>
 
       <div className="services-container">
@@ -14,8 +14,7 @@ export default function Services() {
           <i className="fab fa-html5" />
           <h5>HTML</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            vulputate, dui sit.
+            Semantic HTML5 and below
           </p>
         </div>
         <div className="box box-2">
@@ -26,8 +25,7 @@ export default function Services() {
           </div>
           <h5>CSS</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            vulputate, dui sit.
+            CSS3 and Sass preprocessor
           </p>
         </div>
         <div className="box box-3">
@@ -38,8 +36,7 @@ export default function Services() {
           </div>
           <h5>JavaScript</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            vulputate, dui sit.
+            ES6+ and ReactJs
           </p>
         </div>
       </div>
