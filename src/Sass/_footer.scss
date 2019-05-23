@@ -3,11 +3,11 @@
   background-color: #1a1d20;
   color: $grey;
   width: 500%;
-  margin-left: -10%;
+  margin-left: -30%;
   margin-top: 100px;
 
   .bg {
-    margin-left: 2%;
+    margin-left: 6%;
 
     .info {
       max-width: 480px;
@@ -63,8 +63,8 @@
   }
 
   @media only screen and (max-width: 767px) {
-    .container {
-      width: 100%;
+    p {
+      max-width: 75%;
     }
   }
 }
