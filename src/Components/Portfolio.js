@@ -4,8 +4,7 @@ export default function Portfolio() {
   return (
     <section id="portfolio">
       <div className="title">
-        <div className="square">
-        </div>
+        <div className="square" />
         <h1>Projects</h1>
       </div>
       <div className="portfolio-container">
@@ -14,7 +13,11 @@ export default function Portfolio() {
             <span className="image-btn">Web Development</span>
           </div>
         </a>
-        <a href="#home" className="box image-2">
+        <a
+          href="https://compassionate-edison-12d6e5.netlify.com/"
+          target="_blank"
+          className="box image-2"
+        >
           <div className="image">
             <span className="image-btn">Web Development</span>
           </div>

@@ -14,7 +14,7 @@ export default function Services() {
           <i className="fab fa-html5" />
           <h5>HTML</h5>
           <p>
-            Semantic HTML5 and below
+            Semantic HTML5
           </p>
         </div>
         <div className="box box-2">
@@ -25,7 +25,7 @@ export default function Services() {
           </div>
           <h5>CSS</h5>
           <p>
-            CSS3 and Sass preprocessor
+            CSS and Sass preprocessor
           </p>
         </div>
         <div className="box box-3">
