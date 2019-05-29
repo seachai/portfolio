@@ -23,11 +23,11 @@ class Header extends Component {
       <Router>
         <header>
           <div className="logo">
-            <Link to="/">Chai Lee</Link>
+            <Link to="/home/">Chai Lee</Link>
           </div>
 
           <nav className="menu">
-            <Link to="/">Home</Link>
+            <Link to="/home/">Home</Link>
             <a href="#services">Skills</a>
             <a href="#portfolio">Projects</a>
             <a href="#blog">Blog</a>
@@ -36,7 +36,7 @@ class Header extends Component {
           <nav
             className={`mobile-menu ${this.state.mobileMenu ? "active" : ""}`}
           >
-            <Link to="/">Home</Link> 
+            <Link to="/home/">Home</Link> 
             <a href="#services">Skills</a>
             <a href="#portfolio">Projects</a>
             <a href="#blog">Blog</a>

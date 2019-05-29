@@ -15,15 +15,11 @@ export default function Portfolio() {
               <span className="image-btn">Web Development</span>
             </div>
           </Link>
-          <a
-            href="https://compassionate-edison-12d6e5.netlify.com/"
-            target="_blank"
-            className="box image-2"
-          >
+          <Link to="/project-info/" className="box image-2">
             <div className="image">
-              <span className="image-btn">Web Development</span>
+              <span className="image-btn">Landing Page</span>
             </div>
-          </a>
+          </Link>
           <a href="#home" className="box image-3">
             <div className="image">
               <span className="image-btn">Web Development</span>
