@@ -13,7 +13,7 @@ function PageRouter() {
     <Router>
       <div className="container">
         <Header />
-        <Route exact path="/home/" component={App} />
+        <Route exact path="/" component={App} />
         <Route path="/project-info" component={ProjectInfo} />
         <Footer />
       </div>

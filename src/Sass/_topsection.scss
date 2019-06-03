@@ -1,7 +1,8 @@
 #top {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 50px 0;
+  padding: 80px 0;
+  height: 100vh;
   align-items: center;
 
   .info {
@@ -44,32 +45,58 @@
       margin-bottom: 4rem;
     }
 
-    a {
+    .hire {
+      // text-decoration: none;
+      // color: $black;
+      // text-transform: capitalize;
+      // font-weight: 600;
+      // font-size: 1rem;
+      // padding-bottom: 5px;
+      // border-bottom: 2px solid #333;
+      // transition: all 0.2s ease-in-out;
+      // letter-spacing: 1px;
       text-decoration: none;
-      color: $black;
-      text-transform: capitalize;
-      font-weight: 600;
-      font-size: 1rem;
-      padding-bottom: 5px;
-      border-bottom: 2px solid #333;
-      transition: all 0.2s ease-in-out;
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: #4a89dc;
+      font-weight: 700;
       letter-spacing: 1px;
+      padding: 6px 10px 5px;
+      border-radius: 2px;
+      transition: 0.2s ease-in-out;
 
       &:hover {
-        border-bottom: 2px solid $yellow;
+        color: $yellow;
       }
     }
   }
-  .img {
-    .background-img {
-      background: url("https://source.unsplash.com/800x600/?ocean");
-      background-position: top center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100%;
-      max-width: 500px;
-      height: 800px;
-      margin: 0 auto;
+  // .img {
+  //   .background-img {
+  //     background: url("https://source.unsplash.com/800x600/?ocean");
+  //     background-position: top center;
+  //     background-repeat: no-repeat;
+  //     background-size: cover;
+  //     width: 100%;
+  //     max-width: 500px;
+  //     height: 800px;
+  //     margin: 0 auto;
+  //   }
+  // }
+  .about {
+    max-width: 500px;
+    margin: 0 auto;
+
+    .title {
+      margin-top: 2rem;
+      display: block;
+      color: $grey;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.7em;
     }
   }
 }
@@ -78,9 +105,13 @@
   #top {
     padding: 0 0 80px;
 
-    .img {
-      .background-img {
-        height: 100vh;
+    .about {
+      .title {
+        display: none;
+      }
+
+      .p {
+        font-size: 15px;
       }
     }
   }

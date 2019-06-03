@@ -36,7 +36,7 @@ class ProjectInfo extends Component {
             <div className="icons">
               <i className="fab fa-html5" />
               <i className="fab fa-css3-alt" />
-              <i className="fab fa-sass"></i>
+              <i className="fab fa-sass" />
               <i className="fab fa-js-square" />
               <i className="fab fa-react" />
             </div>
