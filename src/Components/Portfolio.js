@@ -25,7 +25,7 @@ export default function Portfolio() {
               <span className="image-btn">Web Development</span>
             </div>
           </a>
-          <a href="#home" className="box image-4">
+          {/* <a href="#home" className="box image-4">
             <div className="image">
               <span className="image-btn">Web Development</span>
             </div>
@@ -39,7 +39,7 @@ export default function Portfolio() {
             <div className="image">
               <span className="image-btn">Web Development</span>
             </div>
-          </a>
+          </a> */}
         </div>
       </section>
     </Router>

@@ -103,15 +103,15 @@
 
 @media only screen and (max-width: 960px) {
   #top {
-    padding: 0 0 80px;
-
     .about {
       .title {
-        display: none;
+        text-align: center;
       }
 
-      .p {
+      p {
         font-size: 15px;
+        line-height: 2rem;
+        padding: 0 15px;
       }
     }
   }
@@ -119,11 +119,21 @@
 
 @media only screen and (max-width: 767px) {
   #top {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     padding: 0 0 80px;
 
+
     .info {
+      text-align: center;
       .square {
         display: none;
+      }
+    }
+
+    .about {
+      .title {
+        text-align: center;
       }
     }
 

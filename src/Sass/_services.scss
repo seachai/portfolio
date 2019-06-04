@@ -103,6 +103,7 @@
   .container {
     #services {
       .services-container {
+        grid-gap: 15px;
         grid-template-columns: 100%;
 
         .box {
