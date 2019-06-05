@@ -8,7 +8,7 @@ export default function Footer() {
           <h4>Contact</h4>
           <p>
             I'm always interested in working on new projects.
-            <a href="#hire"> Hire me</a> if you would like to work together.
+            <a href="mailto:imchai@gmail.com"> Hire me</a> if you would like to work together.
           </p>
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/chai-lee-5a064649/">

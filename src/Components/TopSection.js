@@ -7,7 +7,7 @@ export default function TopSection() {
         <div className="square" />
         <h1>Chai Lee</h1>
         <p>Front End Developer</p>
-        <a href="#hire-me" class="hire">
+        <a href="mailto:imchai@gmail.com" class="hire">
           Available for Hire
         </a>
       </div>
@@ -20,9 +20,6 @@ export default function TopSection() {
           getting lost in code.
         </p>
       </div>
-      {/* <div className="img">
-        <div className="background-img" />
-      </div> */}
     </section>
   );
 }
