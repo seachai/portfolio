@@ -4,8 +4,7 @@ export default function Services() {
   return (
     <section id="services">
       <div className="title">
-        <div className="circle">
-        </div>
+        <div className="circle" />
         <h1>Technical Skills</h1>
       </div>
 
@@ -13,9 +12,7 @@ export default function Services() {
         <div className="box box-1">
           <i className="fab fa-html5" />
           <h5>HTML</h5>
-          <p>
-            Semantic HTML5
-          </p>
+          <p>Semantic HTML5</p>
         </div>
         <div className="box box-2">
           <div className="languages">
@@ -24,9 +21,7 @@ export default function Services() {
             <i className="fab fa-sass" />
           </div>
           <h5>CSS</h5>
-          <p>
-            CSS and Sass preprocessor
-          </p>
+          <p>CSS and Sass preprocessor</p>
         </div>
         <div className="box box-3">
           <div className="languages">
@@ -35,9 +30,7 @@ export default function Services() {
             <i className="fab fa-react" />
           </div>
           <h5>JavaScript</h5>
-          <p>
-            ES6+ and ReactJs
-          </p>
+          <p>ES6+ and ReactJs</p>
         </div>
       </div>
     </section>

@@ -3,7 +3,7 @@
 
   .project-image {
     width: 100%;
-    height: 450px;
+    height: 600px;
     background: url("../Img/restaurant.png");
     background-size: cover;
     background-position: center center;
@@ -55,6 +55,34 @@
       .fab {
         margin-right: 1rem;
         font-size: 5rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 960px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+  .pokerestaurant {
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .project-image {
+      width: 100%;
+      height: 300px;
+    }
+
+    .tech {
+      margin-top: 2.5rem;
+
+      .icons {
+        .fab {
+          font-size: 4.5rem;
+        }
       }
     }
   }

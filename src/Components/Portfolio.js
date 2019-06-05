@@ -9,7 +9,7 @@ export default function Portfolio() {
         <h1>Projects</h1>
       </div>
       <div className="portfolio-container">
-        <Link to="/product-landing" className="box image-1">
+        <Link to="/real-estate" className="box image-1">
           <div className="image">
             <span className="image-btn">Real Estate</span>
           </div>

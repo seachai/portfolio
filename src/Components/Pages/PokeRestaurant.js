@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class PokeRestaurant extends Component {
   render() {
     return (
-      <section class="pokerestaurant">
+      <section className="pokerestaurant">
         <div className="container">
           <div className="project-image" />
           <h1>Poké Poké Restaurant</h1>
@@ -12,10 +12,15 @@ class PokeRestaurant extends Component {
               <a
                 href="https://compassionate-edison-12d6e5.netlify.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fas fa-desktop" /> View Project
               </a>
-              <a href="https://github.com/seachai/restaurant/" target="_blank">
+              <a
+                href="https://github.com/seachai/restaurant/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fas fa-code" /> View Code
               </a>
             </div>

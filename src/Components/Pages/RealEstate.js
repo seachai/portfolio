@@ -3,19 +3,24 @@ import React, { Component } from "react";
 class RealEstate extends Component {
   render() {
     return (
-      <section class="realestate">
+      <section className="realestate">
         <div className="container">
           <div className="project-image" />
           <h1>Real Estate</h1>
           <div className="info">
             <div className="buttons">
               <a
-                href="https://compassionate-edison-12d6e5.netlify.com/"
+                href="https://clever-pare-319ba7.netlify.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fas fa-desktop" /> View Project
               </a>
-              <a href="https://github.com/seachai/restaurant/" target="_blank">
+              <a
+                href="https://github.com/seachai/restaurant/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fas fa-code" /> View Code
               </a>
             </div>

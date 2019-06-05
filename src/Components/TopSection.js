@@ -7,7 +7,7 @@ export default function TopSection() {
         <div className="square" />
         <h1>Chai Lee</h1>
         <p>Front End Developer</p>
-        <a href="mailto:imchai@gmail.com" class="hire">
+        <a href="mailto:imchai@gmail.com" className="hire">
           Available for Hire
         </a>
       </div>

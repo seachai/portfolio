@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class ProductLanding extends Component {
   render() {
     return (
-      <section class="productlanding">
+      <section className="productlanding">
         <div className="container">
           <div className="project-image" />
           <h1>X9 Product Landing</h1>
@@ -12,12 +12,14 @@ class ProductLanding extends Component {
               <a
                 href="https://pedantic-blackwell-c886c4.netlify.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fas fa-desktop" /> View Project
               </a>
               <a
                 href="https://github.com/seachai/x9-product-landing"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fas fa-code" /> View Code
               </a>

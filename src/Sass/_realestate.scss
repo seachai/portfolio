@@ -1,62 +1,86 @@
 .realestate {
-    padding: 20px;
-  
-    .project-image {
-      width: 100%;
-      height: 450px;
-      background: url("../Img/restaurant.png");
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      //background-attachment: fixed;
-      margin-bottom: 3rem;
-    }
-  
-    h1 {
-      font-size: 3.5rem;
-      font-weight: 600;
+  padding: 20px;
+
+  .project-image {
+    width: 100%;
+    height: 600px;
+    background: url("../Img/real-estate-2.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 3rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+
+  .info {
+    .buttons {
+      padding: 20px 0;
       margin-bottom: 1.5rem;
-    }
-  
-    .info {
-      .buttons {
-        padding: 20px 0;
-        margin-bottom: 1.5rem;
-  
-        a {
-          margin-right: 10px;
-          padding: 10px 20px;
-          border-radius: 3px;
-          background: $black;
-          color: $white;
-          text-decoration: none;
-          text-transform: capitalize;
-          transition: all 0.2s ease-in-out;
-  
-          &:hover {
-            color: $yellow;
-          }
+
+      a {
+        margin-right: 10px;
+        padding: 10px 20px;
+        border-radius: 3px;
+        background: $black;
+        color: $white;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          color: $yellow;
         }
       }
-      p {
-        color: $grey;
-        font-size: 1.2rem;
-        line-height: 1.7;
-        margin-bottom: 1.5rem;
+    }
+    p {
+      color: $grey;
+      font-size: 1.2rem;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .tech {
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+    }
+    .icons {
+      .fab {
+        margin-right: 1rem;
+        font-size: 5rem;
       }
     }
-  
+  }
+}
+
+@media only screen and (max-width: 960px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .realestate {
+    h1 {
+      font-size: 2rem;
+    }
+
+    .project-image {
+      width: 100%;
+      height: 300px;
+    }
+
     .tech {
-      h3 {
-        font-size: 1.3rem;
-        margin-bottom: 1.5rem;
-      }
+      margin-top: 2.5rem;
+
       .icons {
         .fab {
-          margin-right: 1rem;
-          font-size: 5rem;
+          font-size: 4.5rem;
         }
       }
     }
   }
-  
+}
