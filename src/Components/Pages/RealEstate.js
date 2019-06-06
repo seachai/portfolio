@@ -25,14 +25,17 @@ class RealEstate extends Component {
               </a>
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              A real estate single page application. <br />
+              Created using HTML, CSS, Sass preprocessor, JavaScript, ReactJs
+              and React Router.
             </p>
+            <div className="challenges">
+              <h3>Challenges</h3>
+              <ul>
+                <li>Filtering the data using state and components</li>
+                <li>Setting up React Router to route the components</li>
+              </ul>
+            </div>
           </div>
 
           <div className="tech">
