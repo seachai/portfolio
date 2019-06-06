@@ -25,14 +25,17 @@ class ProductLanding extends Component {
               </a>
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              A product landing page inspired by Apple iPhone XS and Xiaomi Mi
+              9. <br />
+              Created using HTML5, CSS and JavaScript.
             </p>
+            <div className="challenges">
+              <h3>Challenges</h3>
+              <ul>
+                <li>Grid Box</li>
+                <li>CSS</li>
+              </ul>
+            </div>
           </div>
 
           <div className="tech">
@@ -40,9 +43,7 @@ class ProductLanding extends Component {
             <div className="icons">
               <i className="fab fa-html5" />
               <i className="fab fa-css3-alt" />
-              <i className="fab fa-sass" />
               <i className="fab fa-js-square" />
-              <i className="fab fa-react" />
             </div>
           </div>
         </div>
