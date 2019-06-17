@@ -14,12 +14,16 @@
 @import "pokerestaurant.scss";
 @import "realestate.scss";
 @import "productlanding.scss";
+@import "blogpage.scss";
 
 * {
   // font-family: 'Roboto', sans-serif;
   font-family: "Lato", sans-serif;
   margin: 0;
   box-sizing: border-box;
+  .list-shift {
+    padding-left: 20px;
+  }
 }
 
 body {

@@ -9,6 +9,7 @@ import "./Sass/App.scss";
 import PokeRestaurant from "./Components/Pages/PokeRestaurant";
 import RealEstate from "./Components/Pages/RealEstate";
 import ProductLanding from "./Components/Pages/ProductLanding";
+import BlogPage from "./Components/Pages/BlogPage";
 
 function PageRouter() {
   return (
@@ -19,6 +20,7 @@ function PageRouter() {
         <Route path="/poke-restaurant" component={PokeRestaurant} />
         <Route path="/real-estate" component={RealEstate} />
         <Route path="/product-landing" component={ProductLanding} />
+        <Route path="/blog" component={BlogPage} />
         <Footer />
       </div>
     </Router>

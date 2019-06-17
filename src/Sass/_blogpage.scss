@@ -1,0 +1,22 @@
+.blogpage {
+    padding: 20px;
+    .outter-box {
+        border: 10px solid #333;
+        -webkit-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+        .inner-box {
+            padding: 300px 100px;
+            text-align: center;
+            line-height: 2.5rem;
+
+            .blog-img {
+            }
+
+            p {
+                margin: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+}

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Blog extends Component {
   loopedPost = () => {
@@ -40,7 +41,7 @@ export default class Blog extends Component {
       return (
         <div key={item} className="post">
           <div className="read-more">
-            <a href="#readmore">Read More</a>
+            <Link to="/blog">Read More</Link>
           </div>
           <div
             className="post-img"
