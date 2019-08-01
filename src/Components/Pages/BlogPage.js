@@ -5,7 +5,7 @@ function BlogPage() {
     <section className="blogpage">
       <div className="outter-box">
         <div className="inner-box">
-          <img className="blog-img" src="https://i2.wp.com/linxsupply.com/wp-content/uploads/2015/11/hustle-mock.jpg?resize=680%2C850&ssl=1" />
+          <img className="blog-img" src="https://i2.wp.com/linxsupply.com/wp-content/uploads/2015/11/hustle-mock.jpg?resize=680%2C850&ssl=1" alt="hustle"/>
           <h1>The Man in the Arena</h1>
           <p>
             “It is not the critic who counts; not the man who points out how the

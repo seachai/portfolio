@@ -1,13 +1,19 @@
 import React from "react";
 
 export default function Footer() {
+  const whatYear = () => {
+    const date = new Date();
+    const year = date.getFullYear();
+    return year;
+  }
+
   return (
     <footer id="footer">
       <div className="bg">
         <div className="info">
           <h4>Contact</h4>
           <p>
-            I'm always interested in working on new projects.
+            I'm always interested in working on new projects that challenges me.
             <a href="mailto:imchai@gmail.com"> Hire me</a> if you would like to work together.
           </p>
           <div className="social-icons">
@@ -21,7 +27,7 @@ export default function Footer() {
               <i className="far fa-envelope" />
             </a>
           </div>
-          <div className="copyright">&copy; 2019 Chai Lee. All Rights Reserved.</div>
+          <div className="copyright">&copy; {whatYear()} Chai Lee. All Rights Reserved.</div>
         </div>
       </div>
     </footer>
