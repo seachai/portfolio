@@ -1,6 +1,6 @@
 import React from "react";
 
-function PokeRestaurant() {
+const PokeRestaurant = () => {
   return (
     <section className="pokerestaurant">
       <div className="container">
@@ -52,6 +52,6 @@ function PokeRestaurant() {
       </div>
     </section>
   );
-}
+};
 
 export default PokeRestaurant;

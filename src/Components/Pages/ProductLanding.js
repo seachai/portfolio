@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProductLanding() {
+const ProductLanding = () => {
   return (
     <section className="productlanding">
       <div className="container">

@@ -1,24 +1,13 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-class Header extends Component {
-  constructor() {
-    super();
-    this.state = {
-      mobileMenu: false
-    };
-  }
-  toggle = () => {
-    this.setState(
-      {
-        mobileMenu: !this.state.mobileMenu
-      },
-      () => {
-        console.log(this.state);
-      }
-    );
+const Header = () => {
+  const [mobileMenu, setMobileMenu] = useState(false)
+
+  const toggle = () => {
+    return setMobileMenu(!mobileMenu);
   };
-  render() {
+
     return (
       <header>
         <div className="logo">
@@ -32,19 +21,18 @@ class Header extends Component {
           <a href="#blog">Blog</a>
         </nav>
 
-        <nav className={`mobile-menu ${this.state.mobileMenu ? "active" : ""}`}>
+        <nav className={`mobile-menu ${mobileMenu ? "active" : ""}`}>
           <Link to="/">Home</Link>
           <a href="#services">Skills</a>
           <a href="#portfolio">Projects</a>
           <a href="#blog">Blog</a>
         </nav>
 
-        <div className="menu-btn" onClick={this.toggle}>
+        <div className="menu-btn" onClick={toggle}>
           <i className="fas fa-bars" />
         </div>
       </header>
     );
-  }
 }
 
 export default Header;

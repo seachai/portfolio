@@ -1,14 +1,9 @@
 import React from "react";
-import { useSpring, animated } from "react-spring";
 
-export default function TopSection() {
-  const animation = useSpring({
-    opacity: 1,
-    from: { opacity: 0 }
-  });
+const TopSection = () => {
   return (
-    <animated.div style={animation}>
-      <section id="top">
+    <section id="top">
+      <div className="grid">
         <div className="info">
           <div className="square" />
           <h1>Chai Lee</h1>
@@ -26,7 +21,9 @@ export default function TopSection() {
             restaurants and getting lost in the wild.
           </p>
         </div>
-      </section>
-    </animated.div>
+      </div>
+    </section>
   );
-}
+};
+
+export default TopSection;

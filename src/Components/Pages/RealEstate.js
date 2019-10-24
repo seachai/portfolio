@@ -1,6 +1,6 @@
 import React from "react";
 
-function RealEstate() {
+const RealEstate = () => {
   return (
     <section className="realestate">
       <div className="container">
@@ -25,8 +25,8 @@ function RealEstate() {
           </div>
           <p>
             A real estate single page application. <br />
-            Built with love using HTML, CSS, Sass, JavaScript, ReactJs and
-            React Router.
+            Built with love using HTML, CSS, Sass, JavaScript, ReactJs and React
+            Router.
           </p>
           <div className="challenges">
             <h3>Challenges</h3>
@@ -52,6 +52,6 @@ function RealEstate() {
       </div>
     </section>
   );
-}
+};
 
 export default RealEstate;

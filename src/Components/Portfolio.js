@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Portfolio() {
+const Portfolio = () => {
   return (
     <section id="portfolio">
       <div className="title">
@@ -27,4 +27,6 @@ export default function Portfolio() {
       </div>
     </section>
   );
-}
+};
+
+export default Portfolio;

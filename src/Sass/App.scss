@@ -60,12 +60,11 @@ header {
     a {
       text-decoration: none;
       color: $white;
-      transition: .1s;
+      transition: 0.1s;
 
       &:hover {
         color: $yellow;
       }
-
     }
   }
 
@@ -79,10 +78,11 @@ header {
 
     a {
       margin-right: 40px;
+      padding: 15px 20px;
       text-decoration: none;
       font-weight: 600;
       color: $grey;
-      transition: all .1s ease-in-out;
+      transition: all 0.1s ease-in-out;
 
       &:hover {
         color: $yellow;
@@ -99,12 +99,10 @@ header {
 }
 
 @media only screen and (max-width: 960px) {
-
 }
 
 @media only screen and (max-width: 767px) {
   header {
-
     .logo {
       display: flex;
       align-items: center;
@@ -118,16 +116,16 @@ header {
       display: flex;
       align-items: center;
       margin-left: auto;
-        .fas {
-          color: $grey;
-          padding: 15px;
-          font-size: 1.5rem;
-          cursor: pointer;
-          transition: all .1s ease-in-out;
+      .fas {
+        color: $grey;
+        padding: 15px;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: all 0.1s ease-in-out;
 
-          &:hover {
-            color: $yellow;
-          }
+        &:hover {
+          color: $yellow;
+        }
       }
     }
 
@@ -143,9 +141,8 @@ header {
       width: 25%;
       z-index: 10;
       margin: 0;
-      transform: translate3d(0,-500px, 0);
-      transition: all .3s ease-in-out;
-
+      transform: translate3d(0, -500px, 0);
+      transition: all 0.3s ease-in-out;
 
       a {
         align-self: flex-end;
