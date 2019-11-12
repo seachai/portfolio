@@ -12,20 +12,24 @@ import RealEstate from "./Components/Pages/RealEstate";
 import ProductLanding from "./Components/Pages/ProductLanding";
 import BlogPage from "./Components/Pages/BlogPage";
 
+// Utils
+import ScrollToTop from "./Components/utils/ScrollToTop";
+
 const PageRouter = () => {
   return (
     <Router>
-        <div className="container">
-          <Header />
-          <Route exact path="/" component={App} />
-            <Route path="/poke-restaurant" component={PokeRestaurant} />
-            <Route path="/real-estate" component={RealEstate} />
-            <Route path="/product-landing" component={ProductLanding} />
-          <Route path="/blog" component={BlogPage} />
-          <Footer />
-        </div>
+      <ScrollToTop />
+      <div className="container">
+        <Header />
+        <Route exact path="/" component={App} />
+        <Route path="/poke-restaurant" component={PokeRestaurant} />
+        <Route path="/real-estate" component={RealEstate} />
+        <Route path="/product-landing" component={ProductLanding} />
+        <Route path="/blog" component={BlogPage} />
+        <Footer />
+      </div>
     </Router>
   );
-}
+};
 
 export default PageRouter;
