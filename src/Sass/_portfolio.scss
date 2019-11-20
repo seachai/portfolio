@@ -33,7 +33,7 @@
     grid-gap: 10px;
 
     .box {
-      background: black;
+      // background: black;
       display: block;
       width: 100%;
       transition: 0.2s;
@@ -64,13 +64,12 @@
       height: 100%;
       background: url("../Img/real-estate.png");
       background-size: cover;
-      background-position: center center;
       background-repeat: no-repeat;
       transition: all 0.3s ease-in-out;
 
       .image-btn {
         padding: 10px 20px;
-        background: $radish;
+        background: $blue2;
         color: $white;
         opacity: 0;
         transition: all 0.3s ease-in-out;
@@ -88,6 +87,9 @@
         -webkit-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
         -moz-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
         box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+        &:hover {
+          background: $raspy;
+        }
       }
     }
   }
@@ -106,16 +108,18 @@
       height: 100%;
       background: url("../Img/restaurant.png");
       background-size: cover;
-      background-position: center center;
       background-repeat: no-repeat;
       transition: all 0.3s ease-in-out;
 
       .image-btn {
         padding: 10px 20px;
-        background: $radish;
+        background: $blue2;
         color: $white;
         opacity: 0;
         transition: all 0.3s ease-in-out;
+        &:hover {
+          background: $raspy;
+        }
       }
     }
     &:hover {
@@ -154,7 +158,7 @@
 
       .image-btn {
         padding: 10px 20px;
-        background: $radish;
+        background: $blue2;
         color: $white;
         opacity: 0;
         transition: all 0.3s ease-in-out;
@@ -172,6 +176,9 @@
         -webkit-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
         -moz-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
         box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+        &:hover {
+          background: $raspy;
+        }
       }
     }
   }

@@ -8,7 +8,12 @@ const TopSection = () => {
           <div className="square" />
           <h1>Chai Lee</h1>
           <p>Front End Developer</p>
-          <a href="mailto:imchai@gmail.com" className="hire">
+          <a
+            href="mailto:imchai@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hire"
+          >
             Contact Me
           </a>
         </div>

@@ -16,7 +16,7 @@ const RealEstate = () => {
               <i className="fas fa-desktop" /> View Project
             </a>
             <a
-              href="https://github.com/seachai/restaurant/"
+              href="https://github.com/seachai/tiny-real-estate"
               target="_blank"
               rel="noopener noreferrer"
             >

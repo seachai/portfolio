@@ -1,4 +1,4 @@
-#services {
+#skills {
   padding: 80px 15px;
 
   .title {
@@ -32,12 +32,12 @@
       text-align: center;
       // margin-top: 49px;
       // left: -27px;
-      border-bottom: 1px solid #E6E9ED;
+      border-bottom: 1px solid #e6e9ed;
       padding-bottom: 6px;
     }
   }
 
-  .services-container {
+  .skills-container {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
@@ -101,8 +101,8 @@
 
 @media only screen and (max-width: 960px) {
   .container {
-    #services {
-      .services-container {
+    #skills {
+      .skills-container {
         grid-gap: 15px;
         grid-template-columns: 100%;
 
@@ -120,9 +120,8 @@
   .container {
     width: 100%;
 
-    #services {
-      .services-container {
-
+    #skills {
+      .skills-container {
         .box {
           -webkit-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
           -moz-box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);

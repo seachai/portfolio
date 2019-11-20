@@ -1,14 +1,14 @@
 import React from "react";
 
-export default function Services() {
+const Skills = () => {
   return (
-    <section id="services">
+    <section id="skills">
       <div className="title">
         <div className="circle" />
         <h1>Technical Skills</h1>
       </div>
 
-      <div className="services-container">
+      <div className="skills-container">
         <div className="box box-1">
           <i className="fab fa-html5" />
           <h5>HTML</h5>
@@ -35,4 +35,6 @@ export default function Services() {
       </div>
     </section>
   );
-}
+};
+
+export default Skills;

@@ -10,7 +10,10 @@ import "./Sass/App.scss";
 import PokeRestaurant from "./Components/Pages/PokeRestaurant";
 import RealEstate from "./Components/Pages/RealEstate";
 import ProductLanding from "./Components/Pages/ProductLanding";
+import Skills from "./Components/Skills";
+import Portfolio from "./Components/Portfolio";
 import BlogPage from "./Components/Pages/BlogPage";
+import ProjectPage from "./Components/Pages/ProjectPage";
 
 // Utils
 import ScrollToTop from "./Components/utils/ScrollToTop";
@@ -26,6 +29,9 @@ const PageRouter = () => {
         <Route path="/real-estate" component={RealEstate} />
         <Route path="/product-landing" component={ProductLanding} />
         <Route path="/blog" component={BlogPage} />
+        <Route path="/skills" component={Skills} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/test" component={ProjectPage} />
         <Footer />
       </div>
     </Router>
