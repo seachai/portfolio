@@ -11,17 +11,17 @@ const Portfolio = () => {
       <div className="portfolio-container">
         <Link to="/real-estate" className="box image-1">
           <div className="image">
-            <span className="image-btn">Real Estate</span>
+            <span className="image-btn">Tiny Real Estate</span>
           </div>
         </Link>
         <Link to="/poke-restaurant" className="box image-2">
           <div className="image">
-            <span className="image-btn">Restaraunt</span>
+            <span className="image-btn">Poke Poke Restaurant</span>
           </div>
         </Link>
         <Link to="/product-landing" className="box image-3">
           <div className="image">
-            <span className="image-btn">Product Landing</span>
+            <span className="image-btn">X9 Landing Page</span>
           </div>
         </Link>
       </div>

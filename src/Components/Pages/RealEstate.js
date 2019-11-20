@@ -5,7 +5,7 @@ const RealEstate = () => {
     <section className="realestate">
       <div className="container">
         <div className="project-image" />
-        <h1>Real Estate</h1>
+        <h1>Tiny Real Estate</h1>
         <div className="info">
           <div className="buttons">
             <a
