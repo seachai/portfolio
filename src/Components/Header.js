@@ -18,7 +18,6 @@ const Header = () => {
         <Link to="/">Home</Link>
         <a href="/#skills">Skills</a>
         <a href="/#portfolio">Projects</a>
-        {/* <a href="/#blog">Blog</a> */}
         <a
           href="mailto:imchai@gmail.com"
           target="_blank"
@@ -33,7 +32,6 @@ const Header = () => {
         <Link to="/">Home</Link>
         <a href="/#skills">Skills</a>
         <a href="/#portfolio">Projects</a>
-        {/* <a href="/#blog">Blog</a> */}
         <a
           href="mailto:imchai@gmail.com"
           target="_blank"
